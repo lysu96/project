@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+php_value upload_max_filesize 1000M
+php_value post_max_size 1000M
+php_value memory_limit 1000M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+#Options -Indexes
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.+)/?$ index.php/$1 [L]
+#RewriteRule "\.exe" "-" [F]
+
+ErrorDocument 404 https://hmooblee.com/project
+#Redirect 301 / http://localhost/
+
+
+#RewriteRule ^download/([0-9]+)$ download.php?id=$1
+RewriteRule ^([a-zA-Z0-9_-]+)$ download.php?id=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ download.php?id=$1
