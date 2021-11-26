@@ -39,9 +39,9 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Quản lý Danh mục</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Quản lý Thẻ</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Quản lý file</a></li>
-                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Quản lý người dùng</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Dự Án</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Tài Liệu</a></li>
+                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="list_user.php">Quản lý người dùng</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./#portfolio">Dự Án</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./#education">Tài Liệu</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="logout.php">Đăng xuất</a></li>
             </ul>
         </div>

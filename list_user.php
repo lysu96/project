@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$title = "Danh sách bài viết - Dự án miễn phí php";
+$title = "Danh sách Người dùng - Dự án miễn phí php";
 require_once 'header-admin.php';
 
  ?>

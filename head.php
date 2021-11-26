@@ -32,7 +32,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./#skills">Liên hệ</a></li>
                 
                 <?php 
-                    if (isset($_SESSION['user'])) {
+                    if (isset($_SESSION['email'])) {
                         
                  ?>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="router.php">Tài khoản</a></li>

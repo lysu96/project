@@ -8,9 +8,7 @@ $project = new Posts();
 $project->Connect();
 $datas = $project->List_post();
 
-// echo "<pre>";
-// print_r($data);
-// 
+// liên hệ
 if (isset($_POST['send'])) {
     $err = '';
     if (empty($_POST['yourname'])) {

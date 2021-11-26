@@ -21,13 +21,13 @@ if (isset($_GET['id'])) {
 }
 
 ?>
-
-<div class="container-fluid">
+<section class="resume-section" id="about">
+<div class="resume-section-content">
     <?php foreach ($datas as $dl) {
         echo $dl['content_post'];
     }    
     ?>
 
 </div>
-
+</section>
 <?php require_once 'footer.php'; ?>
